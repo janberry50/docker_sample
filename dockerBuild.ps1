@@ -8,4 +8,4 @@ cp Dockerfile bin/publish
 cd bin/publish
 
 docker image remove dockersample
-docker build --tag dockersample .docker
+docker build --tag dockersample .
